@@ -6,8 +6,8 @@
 ### Pré Requisitos:
  - Realizar a instalação de um editor de código ou IDE, as recomendações são o VSCode ou Goland.
 <div style="text-align: center;">  
-     <img src="assets/vscode.png" style="margin-right: 100px" alt="Windows Terminal" width="100"/>
-    <img src="assets/goland.png" style="margin-right: 100px" alt="Windows Terminal" width="100"/>
+     <img src="assets/vscode.png" style="margin-right: 100px" alt="Windows Terminal" width="100"/>                       
+     <img src="assets/goland.png" style="margin-right: 100px" alt="Windows Terminal" width="100"/>
 </div>
 
 ## 1. Baixar o Instalador
@@ -25,7 +25,7 @@ Como sempre vou deixar um link de um vídeo para auxiliar caso surja alguma dúv
 
 1. Execute o arquivo `.msi` baixado.
 2. Siga as instruções do assistente de instalação.
-3. Verifique se o Go foi instalado corretamente abrindo o **Prompt de Comando** e executando:
+3. Verifique se o Go foi instalado corretamente abrindo o **Terminal** e executando:
    ```sh
    go version
    
