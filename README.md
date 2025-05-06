@@ -6,8 +6,8 @@
 ### Pré Requisitos:
  - Realizar a instalação de um editor de código ou IDE, as recomendações são o VSCode ou Goland.
 <div style="text-align: center;">  
-     <img src="assets/vscode.png" style="margin-right: 100px" alt="Windows Terminal" width="100"/>                       
-     <img src="assets/goland.png" style="margin-right: 100px" alt="Windows Terminal" width="100"/>
+     <img src="/assets/vscode.png" style="margin-right: 100px" width="100"/>                       
+     <img src="/assets/goland.png" style="margin-right: 100px" width="100"/>
 </div>
 
 ## 1. Baixar o Instalador
@@ -61,6 +61,7 @@ Como sempre vou deixar um link de um vídeo para auxiliar caso surja alguma dúv
    go version go1.24.1  👈 o output esperado é esse
    ```
 
-### 4. Tá pronto o sorvetinho! Nos vemos novamente no dia da oficina  🐈🚀
+### 4. Por fim, faça o `git clone` deste repositório na sua máquina para acompanhar e realizar os exercícios durante a oficina!
+### 5. Tá pronto o sorvetinho! Nos vemos novamente no dia da oficina  🐈🚀
 
 ### Caso surja alguma dúvida, entre em contato por e-mail (liprog@ufcspa.edu.br) ou pelo instagram (@liprog.ufcspa).
