@@ -6,4 +6,29 @@ package main
 // 4. No main(), crie um usuário com nome "João" e idade 25.
 // 5. Imprima o valor do usuário antes e depois de chamar AtualizarUsuario, passando o novo nome "Carlos" e idade 30.
 
-func main(){}
+type Usuario struct {
+	Nome  string
+	Idade int
+}
+
+func AtualizarUsuario(u *Usuario, novoNome string, novaIdade int) {
+	u.Nome = novoNome
+	u.Idade = novaIdade
+}
+
+func main() {
+	usuario := Usuario{
+		Nome:  "João",
+		Idade: 25,
+	}
+
+	println("Antes da atualização:")
+	println("Nome:", usuario.Nome)
+	println("Idade:", usuario.Idade)
+
+	AtualizarUsuario(&usuario, "Carlos", 30)
+
+	println("Depois da atualização:")
+	println("Nome:", usuario.Nome)
+	println("Idade:", usuario.Idade)
+}
